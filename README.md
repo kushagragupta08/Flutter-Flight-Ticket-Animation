@@ -6,7 +6,7 @@ We have implemented this cool UI Animation with Animated Container in Flutter.
 <img src="https://user-images.githubusercontent.com/46425856/59089780-93a0d900-8928-11e9-9e91-5bb643086dcc.gif" height="500" width="300">
 
 Code Snippet:-
-
+<pre>
 AnimatedContainer(
           padding: EdgeInsets.only(bottom: 100.0),
           duration: Duration(seconds: 1),
@@ -25,7 +25,7 @@ AnimatedContainer(
         ),
 
 
-
+</pre>
 We have animated the Icon Alignment along with Floating Button in  bottom.
 
 
