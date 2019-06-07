@@ -1,6 +1,33 @@
-# animated_containers
+# Flutter Ticket Booking Animation( Using Animated Container)
 
-A new Flutter project.
+We have implemented this cool UI Animation with Animated Container in Flutter.
+
+
+<img src="https://user-images.githubusercontent.com/46425856/59089780-93a0d900-8928-11e9-9e91-5bb643086dcc.gif" height="500" width="300">
+
+Code Snippet:-
+
+AnimatedContainer(
+          padding: EdgeInsets.only(bottom: 100.0),
+          duration: Duration(seconds: 1),
+          // height: _height,
+          // width: 40.0,
+          //color: Colors.blue,
+          alignment: _alignment,
+          child: Container(
+            height: 35.0,
+            child: Icon(
+              Icons.airplanemode_active,
+              color: _iconColor,
+              size: 35.0,
+            ),
+          ),
+        ),
+
+
+
+We have animated the Icon Alignment along with Floating Button in  bottom.
+
 
 ## Getting Started
 
